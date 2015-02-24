@@ -13,6 +13,7 @@
 		86B947CC1A9C53DC00056401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B947CB1A9C53DC00056401 /* Images.xcassets */; };
 		86B947CF1A9C53DC00056401 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B947CD1A9C53DC00056401 /* LaunchScreen.xib */; };
 		86B947DB1A9C53DC00056401 /* ProtocolStuffTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B947DA1A9C53DC00056401 /* ProtocolStuffTests.swift */; };
+		86B947E51A9C540F00056401 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B947E41A9C540F00056401 /* Main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		86B947D41A9C53DC00056401 /* ProtocolStuffTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolStuffTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B947D91A9C53DC00056401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86B947DA1A9C53DC00056401 /* ProtocolStuffTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolStuffTests.swift; sourceTree = "<group>"; };
+		86B947E41A9C540F00056401 /* Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				86B947C41A9C53DC00056401 /* AppDelegate.swift */,
 				86B947C61A9C53DC00056401 /* ViewController.swift */,
 				86B947C81A9C53DC00056401 /* Main.storyboard */,
+				86B947E41A9C540F00056401 /* Main.swift */,
 				86B947CB1A9C53DC00056401 /* Images.xcassets */,
 				86B947CD1A9C53DC00056401 /* LaunchScreen.xib */,
 				86B947C21A9C53DC00056401 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B947E51A9C540F00056401 /* Main.swift in Sources */,
 				86B947C71A9C53DC00056401 /* ViewController.swift in Sources */,
 				86B947C51A9C53DC00056401 /* AppDelegate.swift in Sources */,
 			);
